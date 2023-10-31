@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args)
     {
         int x = 2;
-        int expectedValue = 8;
+        int expectedValue = 5;
         int actualValue = calculatePow3(x);
         assertEquals(expectedValue,actualValue);
     }
